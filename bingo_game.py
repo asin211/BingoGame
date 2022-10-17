@@ -1,11 +1,11 @@
 import random    #module for random numbers
 import sys       #module for quitting the game
 
-print('\n********Welcome to BINGO************\n'
-      'Enter unique numbers between 1 - 80,\n'
-      'Match all 10 numbers to win')
+print('\n********WELCOME TO BINGO************\n'
+      'User Instruction: Please type in ONLY RANDOM NUMBERS between 1 and 80\n'
+      'When all the numbers are matched, YOU WIN')
 
-playerPrompt = str(input("Enter any key to Start Game or N to Quit: "))
+playerPrompt = str(input("Select any key to continue or N to exit: "))
 if playerPrompt == 'n' or playerPrompt == 'N':
     sys.exit("See you next time")
 else:
